@@ -89,10 +89,8 @@ VITE_APPWRITE_URL=your_appwrite_url VITE_APPWRITE_PROJECT_ID=your_project_id VIT
 This project is part of my “Let’s Code” daily learning routine where I practice JavaScript and React consistently to improve my frontend development skills.
 
 ## Daily Updates :
-
 ## New Update – Appwrite Service Layer
-
-## “Backend Services"
+## “Backend Services"(Day-9)
 
 - Added centralized Appwrite service class.
 - Implemented CRUD operations for blog posts.
