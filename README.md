@@ -36,7 +36,8 @@ The repository reflects my **daily learning progress**, with incremental updates
 ## What I Learned So Far
 
 - Creating and configuring a React project with Vite
-- Installing and managing dependencies  
+- Installing and managing dependencies
+
 ```
 "dependencies": {
     "@reduxjs/toolkit"
@@ -50,9 +51,10 @@ The repository reflects my **daily learning progress**, with incremental updates
     "react-redux"
     "react-router-dom"
   }
-  ```
+```
 
 **Bun / npm**
+
 - Setting up **Appwrite**:
   - Creating Appwrite account
   - Creating project and database
@@ -81,5 +83,21 @@ VITE_APPWRITE_URL=your_appwrite_url VITE_APPWRITE_PROJECT_ID=your_project_id VIT
 - Code clarity over complexity
 
 ---
+
 ## Learning Journey
+
 This project is part of my “Let’s Code” daily learning routine where I practice JavaScript and React consistently to improve my frontend development skills.
+
+## Daily Updates :
+
+## New Update – Appwrite Service Layer
+
+## “Backend Services"
+
+- Added centralized Appwrite service class.
+- Implemented CRUD operations for blog posts.
+- Integrated Appwrite Database and Storage services.
+- Added file upload, delete, and preview functionality.
+- Used async/await with proper error handling.
+- Implemented query-based post fetching (active posts).
+- Improved code structure using class-based services.
