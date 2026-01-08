@@ -99,3 +99,62 @@ This project is part of my “Let’s Code” daily learning routine where I pra
 - Used async/await with proper error handling.
 - Implemented query-based post fetching (active posts).
 - Improved code structure using class-based services.
+
+## Day 11 – Authentication State & App Structure (Redux Setup)
+
+## What was implemented
+
+On Day 11, the project was enhanced by introducing Redux Toolkit for managing authentication state and improving overall app structure.
+
+## 🔹 Redux Store Setup
+
+Created a store folder inside src.
+Configured a centralized Redux store using configureStore.
+Added an auth slice to manage authentication-related state.
+
+## 🔹 Auth Slice (authSlice.js)
+
+Implemented authentication state using Redux Toolkit’s createSlice.
+Managed:
+status → tracks whether the user is logged in or not.
+userData → stores logged-in user information.
+
+Added reducers:
+login → sets auth status to true and saves user data.
+logout → clears auth state and user data.
+
+## 🔹 Appwrite Authentication Integration
+
+Connected Appwrite authentication with Redux.
+On app load:
+Checked current user session using getCurrentUser.
+Dispatched login if user session exists.
+Dispatched logout if no active session is found.
+Added a loading state to ensure the UI renders only after auth check completes.
+
+## 🔹 Component Structure Improvements
+
+Created a components folder for reusable UI parts.
+Added separate folders for:
+Header
+Footer
+Centralized component exports using an index.js file for cleaner imports.
+
+## 🔹 App Layout Enhancement
+
+Integrated Header and Footer into the main app layout.
+Prepared the layout for future routing using <Outlet />.
+Applied basic layout styling for full-screen structure.
+
+## 🔹 Redux Provider Integration
+
+Wrapped the application with Redux <Provider> in main.jsx.
+Connected the app to the global Redux store for state access across components.
+
+## ✅ Summary
+
+This update establishes a scalable foundation for the MegaBlog project by:
+Introducing global auth state management.
+Handling persistent login sessions safely.
+Structuring components and layout cleanly.
+Preparing the app for routing and future features like posts, protected routes, and role-based access.
