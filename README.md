@@ -158,3 +158,20 @@ Introducing global auth state management.
 Handling persistent login sessions safely.
 Structuring components and layout cleanly.
 Preparing the app for routing and future features like posts, protected routes, and role-based access.
+
+## Day 14 – MegaBlog Project Updates
+
+1. Created reusable layout component (Container) for consistent spacing.
+2. Designed a responsive Header with authentication-based navigation.
+3. Implemented Logout functionality using Appwrite and Redux.
+4. Built a structured Footer with multiple navigation sections.
+5. Added reusable UI components:
+
+  Button component
+  Input component with forwardRef
+
+6. Integrated Redux auth state to show/hide navigation items.
+7. Improved overall project structure and scalability.
+
+## Summary:
+This update focuses on building a scalable and reusable UI architecture for the MegaBlog project. Core layout components, authentication-aware navigation, and reusable form elements were implemented to improve code organization, maintainability, and prepare the application for future features like protected routes and post management.
